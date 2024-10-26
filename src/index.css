@@ -5,7 +5,7 @@
 @layer base {
   body {
     @apply bg-stone-100;
-    @apply font-sans;
+    @apply font-serif;
     @apply text-stone-900;
   }
 }
