@@ -12,11 +12,11 @@ const Navbar = () => {
           <h3 className="text-3xl">CoffeeBar</h3>
         </div>
         {/* Icons */}
-        <div className="flex justify-center items-center gap-2 text-xl">
+        <div className="flex justify-center items-center gap-2 text-2xl">
           <MdShoppingBag />
           <MdPerson />
           <IoMdSearch />
-          <div className="border-l pl-2 text-xl">
+          <div className="border-l-2 border-stone-300 pl-2 text-2xl">
             <MdMenu />
           </div>
         </div>
