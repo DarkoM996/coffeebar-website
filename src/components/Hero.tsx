@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="flex flex-col justify-center items-center w-full h-full gap-8 lg:gap-20">
         <div className="flex flex-col justify-center items-center">
           <div className="flex flex-row justify-center items-center">
-            <h1 className="text-4xl md:text-6xl lg:text-9xl text-center px-6 lg:px-28">
+            <h1 className="text-6xl lg:text-9xl text-center px-6 lg:px-28">
               Gateway To The Best Coffee Experience
             </h1>
           </div>
