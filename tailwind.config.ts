@@ -6,6 +6,9 @@ export default {
       screens: {
         "3xl": "1920px",
       },
+      fontFamily: {
+        serif: ["Italiana", "serif"],
+      },
     },
   },
   plugins: [],
