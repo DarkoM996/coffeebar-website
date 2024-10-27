@@ -4,6 +4,7 @@ import coffeeimage3 from "../images/image4.jpg";
 import coffeeimage4 from "../images/image5.jpg";
 import coffeeimage5 from "../images/image19.jpg";
 import coffeeimage6 from "../images/image24.jpg";
+import { IoMdArrowRoundForward } from "react-icons/io";
 
 const FeaturedCards = () => {
   return (
@@ -76,16 +77,15 @@ const FeaturedCards = () => {
           />
           {/* Absolute position div with text and CTA */}
           <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-6 bg-black/50 rounded-2xl px-6 py-4 lg:px-16 text-stone-300">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl">
-              Skilled Barristas
-            </h3>
-            <p className="text-base">
+            <h3 className="text-3xl lg:text-4xl">Skilled Barristas</h3>
+            <p className="text-xl">
               Skilled Baristas are essential part of our coffee culture. Read
               what else is a strong part of our values.
             </p>
             {/* Button + icon div */}
-            <div>
+            <div className="flex flex-col md:flex-row justify-center items-center gap-2 hover:border-b">
               <button className="text uppercase text-xl p-2">Learn More</button>
+              <IoMdArrowRoundForward className="text-2xl" />
             </div>
           </div>
         </div>
@@ -97,16 +97,17 @@ const FeaturedCards = () => {
           />
           {/* Absolute position div with text and CTA */}
           <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-6 bg-black/50 rounded-2xl px-6 py-4 lg:px-16 text-stone-300">
-            <h3 className="text-2xl md:text-3xl lg:text-4xl">
+            <h3 className="text-3xl lg:text-4xl text-center">
               Unforgettable Experiences
             </h3>
-            <p className="text-base">
+            <p className="text-xl">
               How a customer enjoys in our coffee is just one step on how we
               focus to provide you unforgettable experiences.
             </p>
             {/* Button + icon div */}
-            <div>
+            <div className="flex flex-col md:flex-row justify-center items-center gap-2 hover:border-b">
               <button className="text uppercase text-xl p-2">Learn More</button>
+              <IoMdArrowRoundForward className="text-2xl" />
             </div>
           </div>
         </div>
