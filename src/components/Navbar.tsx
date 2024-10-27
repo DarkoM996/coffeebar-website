@@ -5,8 +5,8 @@ import { MdShoppingBag } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <nav className="border-b border-primary_backgroundLighterColor-300">
-      <div className="max-w-screen-3xl mx-auto w-full h-20 flex justify-between items-center px-6 py-4 lg:px-28 bg-primary_backgroundLighterColor-400">
+    <nav className="border-b border-stone-400">
+      <div className="max-w-screen-3xl mx-auto w-full h-20 flex justify-between items-center px-6 py-4 lg:px-28 bg-primary_backgroundLighterColor-200">
         {/* TypeLogo */}
         <div>
           <h3 className="text-3xl">CoffeeBar</h3>
