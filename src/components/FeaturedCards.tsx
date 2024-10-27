@@ -6,7 +6,7 @@ import coffeeimage4 from "../images/image5.jpg";
 const FeaturedCards = () => {
   return (
     <section className="max-w-screen-3xl mx-auto w-full h-screen px-6 py-4 lg:px-28">
-      <h2 className="text-4xl md:text-5xl">Featured Coffees</h2>
+      <h2 className="text-4xl md:text-5xl py-16">Featured Coffees</h2>
       {/* Grid elements */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 ">
         {/* Grid element #1 */}
@@ -32,7 +32,7 @@ const FeaturedCards = () => {
             />
           </div>
           <div className="text-left">
-            <h4 className="text-3xl md:text-4xl">Espresso</h4>
+            <h4 className="text-3xl md:text-4xl">Fredo Espresso</h4>
           </div>
         </div>
         {/* Grid element #3 */}
@@ -45,7 +45,7 @@ const FeaturedCards = () => {
             />
           </div>
           <div className="text-left">
-            <h4 className="text-3xl md:text-4xl">Espresso</h4>
+            <h4 className="text-3xl md:text-4xl">Macchiato</h4>
           </div>
         </div>
         {/* Grid element #4 */}
@@ -58,7 +58,7 @@ const FeaturedCards = () => {
             />
           </div>
           <div className="text-left">
-            <h4 className="text-3xl md:text-4xl">Espresso</h4>
+            <h4 className="text-3xl md:text-4xl">Americano</h4>
           </div>
         </div>
       </div>
