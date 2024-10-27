@@ -1,5 +1,6 @@
 // import { MdKeyboardArrowDown } from "react-icons/md";
 import image1 from "../images/image1.jpg";
+import image2 from "../images/image2.jpg";
 
 const Hero = () => {
   return (
@@ -12,21 +13,21 @@ const Hero = () => {
               <img
                 src={image1}
                 alt="image 1"
-                className="hidden lg:block w-[200px] h-[200px] object-cover"
+                className="w-[150px] h-[150px] object-cover rounded-2xl md:ml-6"
               />
             </div>
           </div>
           <div className="flex flex-col-reverse md:flex-row justify-center items-center w-full">
             <div className="relative">
               <img
-                src={image1}
+                src={image2}
                 alt="image 1"
-                className="hidden lg:block w-[200px] h-[200px] object-cover"
+                className="w-[150px] h-[150px] object-cover rounded-2xl md:mr-6"
               />
             </div>
-            <div className="text-left">
+            <div className="text-center md:text-left">
               <h1 className="text-5xl md:text-6xl lg:text-8xl">
-                Best Coffee Experience
+                Best Coffee Ever
               </h1>
             </div>
           </div>
