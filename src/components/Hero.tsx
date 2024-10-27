@@ -7,27 +7,27 @@ const Hero = () => {
       <div className="flex flex-col justify-center items-center w-full h-full gap-8 lg:gap-20">
         <div className="flex flex-col justify-center items-center">
           <div className="flex flex-col md:flex-row justify-center items-center">
-            <div>
-              <h1 className="text-5xl">Gateway To The</h1>
-            </div>
-            <div>
+            <h1 className="text-5xl md:text-6xl lg:text-8xl">Gateway To The</h1>
+            <div className="relative">
               <img
                 src={image1}
                 alt="image 1"
-                className="w-[200px] h-[200px] object-cover"
+                className="w-[150px] h-[150px] object-cover"
               />
             </div>
           </div>
-          <div className="flex flex-col md:flex-row justify-center items-center">
-            <div>
+          <div className="flex flex-col-reverse md:flex-row justify-center items-center">
+            <div className="relative">
               <img
                 src={image1}
                 alt="image 1"
-                className="w-[200px] h-[200px] object-cover"
+                className="w-[150px] h-[150px] object-cover"
               />
             </div>
             <div>
-              <h1 className="text-5xl">Best Coffee Experience</h1>
+              <h1 className="text-5xl md:text-6xl lg:text-8xl">
+                Best Coffee Experience
+              </h1>
             </div>
           </div>
         </div>
