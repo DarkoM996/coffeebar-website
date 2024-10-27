@@ -2,8 +2,8 @@ import backgroundimage from "../images/image25.jpg";
 
 const CTA = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full min-h-screen">
-      <div className="relative h-[800px]">
+    <section className="max-w-screen-3xl mx-auto w-full h-[80vh]">
+      <div className="relative h-full">
         <img
           src={backgroundimage}
           alt="background image"

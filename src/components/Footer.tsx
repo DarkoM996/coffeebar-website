@@ -9,8 +9,8 @@ import { MdFax, MdHouse, MdLocalPhone, MdMail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="max-w-screen-3xl mx-auto px-6 py-4 h-full bg-black text-white">
-      <div className="flex justify-between items-center lg:justify-between border-b-2 border-[#1b1b1b] p-6">
+    <footer className="max-w-screen-3xl mx-auto px-6 py-4 min-h-screen grid grid-cols-1 gap-4 bg-stone-950 text-white">
+      <div className="flex justify-between items-center lg:justify-between border-b-2 border-stone-800 p-6">
         <div className="mr-12 hidden lg:block">
           <span className="text-xl">Find us on social media</span>
         </div>
