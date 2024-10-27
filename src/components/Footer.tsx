@@ -9,8 +9,8 @@ import { MdFax, MdHouse, MdLocalPhone, MdMail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="max-w-screen-3xl mx-auto px-6 py-4 min-h-screen grid grid-cols-1  bg-stone-950 text-stone-300">
-      <div className="flex justify-between items-center lg:justify-between border-b-2 border-stone-800 p-6">
+    <footer className="max-w-screen-3xl mx-auto px-6 py-4 h-[600px] grid grid-cols-1  bg-stone-950 text-stone-300">
+      <div className="flex justify-between items-center lg:justify-between border-b-2 border-stone-900 p-6">
         <div className="mr-12 hidden lg:block">
           <span className="text-xl">Find us on social media</span>
         </div>
@@ -123,7 +123,7 @@ const Footer = () => {
       <div className="p-6 text-center text-[#ccc]">
         <span>© 2024 Copyright:</span>
         <a href="/" className="text-[#eee] ml-1">
-          Sneaker <span className="italic font-bodoni font-medium">Life</span>
+          CoffeeBar
         </a>
       </div>
     </footer>
