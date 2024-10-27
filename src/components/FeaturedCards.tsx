@@ -12,10 +12,10 @@ const FeaturedCards = () => {
             <img
               src={coffeeimage1}
               alt="coffee image 1"
-              className="w-full h-[520px] object-cover rounded-2xl"
+              className="w-full h-[520px] object-cover rounded-tr-[350px] rounded-bl-[350px]"
             />
           </div>
-          {/* div container can be put here or removed..  */}
+
           <h4 className="text-3xl md:text-4xl">Espresso</h4>
         </div>
       </div>
