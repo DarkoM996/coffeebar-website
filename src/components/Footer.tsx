@@ -9,7 +9,7 @@ import { MdFax, MdHouse, MdLocalPhone, MdMail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="max-w-screen-3xl mx-auto px-6 py-4 min-h-screen grid grid-cols-1  bg-stone-950 text-white">
+    <footer className="max-w-screen-3xl mx-auto px-6 py-4 min-h-screen grid grid-cols-1  bg-stone-950 text-stone-300">
       <div className="flex justify-between items-center lg:justify-between border-b-2 border-stone-800 p-6">
         <div className="mr-12 hidden lg:block">
           <span className="text-xl">Find us on social media</span>
@@ -37,10 +37,7 @@ const Footer = () => {
       <div className="mx-6 py-10 text-center md:text-left">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-24 ">
           <div className="">
-            <h4 className="text-3xl font-bold pb-4">
-              Travel{" "}
-              <span className="italic font-bodoni font-medium">Life</span>
-            </h4>
+            <h4 className="text-3xl font-bold pb-4">CoffeeBar</h4>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
               cupiditate nobis consequuntur quasi autem deleniti voluptatem
