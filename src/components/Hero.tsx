@@ -5,10 +5,14 @@ import image2 from "../images/image2.jpg";
 const Hero = () => {
   return (
     <main className="max-w-screen-3xl mx-auto w-full h-screen bg-stone-100">
+      {/* Container  */}
       <div className="flex flex-col justify-center items-center w-full h-full gap-8 lg:gap-20">
+        {/* Additional text container for better space and overall design look */}
         <div className="flex flex-col justify-center items-center w-full h-full gap-8 px-6 py-4 lg:px-20">
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 w-full">
+            {/* Heading Container */}
             <h1 className="text-5xl md:text-6xl lg:text-8xl">Gateway To The</h1>
+            {/* Image Container */}
             <div className="relative">
               <img
                 src={image1}
@@ -18,6 +22,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex flex-col-reverse md:flex-row justify-center items-center gap-4 w-full">
+            {/* Image Container */}
             <div className="relative">
               <img
                 src={image2}
@@ -25,12 +30,14 @@ const Hero = () => {
                 className="w-[150px] h-[150px] object-cover rounded-2xl md:mr-6"
               />
             </div>
+            {/* Heading Container */}
             <div className="text-center md:text-left">
               <h1 className="text-5xl md:text-6xl lg:text-8xl">
                 Best Coffee Ever
               </h1>
             </div>
           </div>
+          {/* Swipe Down Button with CSS animation pulse */}
           <div className="flex flex-col justify-center items-center gap-2">
             <button className="text-xl ">Swipe Down</button>
             <MdKeyboardArrowDown className="text-2xl" />
