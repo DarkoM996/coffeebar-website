@@ -2,6 +2,7 @@ import coffeeimage1 from "../images/image2.jpg";
 import coffeeimage2 from "../images/image3.jpg";
 import coffeeimage3 from "../images/image4.jpg";
 import coffeeimage4 from "../images/image5.jpg";
+import coffeeimage5 from "../images/image17.jpg";
 
 const FeaturedCards = () => {
   return (
@@ -64,6 +65,23 @@ const FeaturedCards = () => {
       </div>
       {/* CSS Div Divider */}
       <div className="flex flex-grow border-b border-stone-300"></div>
+      {/* About Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12 py-16">
+        <div className="relative">
+          <img
+            src={coffeeimage5}
+            alt="coffee image 5"
+            className="w-full h-full object-cover rounded-2xl"
+          />
+        </div>
+        <div className="relative">
+          <img
+            src={coffeeimage5}
+            alt="coffee image 5"
+            className="w-full h-full object-cover rounded-2xl"
+          />
+        </div>
+      </div>
     </section>
   );
 };
