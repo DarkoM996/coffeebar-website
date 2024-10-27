@@ -4,9 +4,9 @@
 
 @layer base {
   body {
-    @apply bg-stone-100;
+    @apply bg-primary_backgroundLighterColor-50;
     @apply font-serif;
-    @apply text-stone-900;
+    @apply text-primary_backgroundDarkerColor-900;
   }
 }
 
