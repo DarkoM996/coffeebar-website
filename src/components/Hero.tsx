@@ -6,25 +6,25 @@ const Hero = () => {
     <main className="max-w-screen-3xl mx-auto w-full h-[calc(100vh-82px)] bg-stone-100">
       <div className="flex flex-col justify-center items-center w-full h-full gap-8 lg:gap-20">
         <div className="flex flex-col justify-center items-center w-full h-full px-6 py-4 lg:px-20">
-          <div className="flex flex-col md:flex-row justify-center items-center">
+          <div className="flex flex-col md:flex-row justify-center items-center w-full">
             <h1 className="text-5xl md:text-6xl lg:text-8xl">Gateway To The</h1>
             <div className="relative">
               <img
                 src={image1}
                 alt="image 1"
-                className="hidden md:block w-[200px] h-[200px] object-cover"
+                className="hidden lg:block w-[200px] h-[200px] object-cover"
               />
             </div>
           </div>
-          <div className="flex flex-col-reverse md:flex-row justify-center items-center">
+          <div className="flex flex-col-reverse md:flex-row justify-center items-center w-full">
             <div className="relative">
               <img
                 src={image1}
                 alt="image 1"
-                className="hidden md:block w-[200px] h-[200px] object-cover"
+                className="hidden lg:block w-[200px] h-[200px] object-cover"
               />
             </div>
-            <div className="text-center">
+            <div className="text-left">
               <h1 className="text-5xl md:text-6xl lg:text-8xl">
                 Best Coffee Experience
               </h1>
