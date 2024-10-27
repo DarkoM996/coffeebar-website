@@ -15,8 +15,9 @@ const FeaturedCards = () => {
               className="w-full h-[520px] object-cover rounded-tr-[350px] rounded-bl-[350px]"
             />
           </div>
-
-          <h4 className="text-3xl md:text-4xl">Espresso</h4>
+          <div className="text-left">
+            <h4 className="text-3xl md:text-4xl">Espresso</h4>
+          </div>
         </div>
       </div>
     </section>
