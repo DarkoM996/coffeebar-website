@@ -17,7 +17,7 @@ const Hero = () => {
               <img
                 src={image1}
                 alt="image 1"
-                className="w-[150px] h-[150px] object-cover rounded-2xl md:ml-6"
+                className="w-[150px] h-[150px] object-cover  rounded-tr-[90px] rounded-bl-[90px] md:ml-6"
               />
             </div>
           </div>
@@ -27,7 +27,7 @@ const Hero = () => {
               <img
                 src={image2}
                 alt="image 1"
-                className="w-[150px] h-[150px] object-cover rounded-2xl md:mr-6"
+                className="w-[150px] h-[150px] object-cover  rounded-tr-[90px] rounded-bl-[90px] md:mr-6"
               />
             </div>
             {/* Heading Container */}
