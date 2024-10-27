@@ -2,12 +2,12 @@ import coffeeimage1 from "../images/image2.jpg";
 import coffeeimage2 from "../images/image3.jpg";
 import coffeeimage3 from "../images/image4.jpg";
 import coffeeimage4 from "../images/image5.jpg";
-import coffeeimage5 from "../images/image17.jpg";
-import coffeeimage6 from "../images/image18.jpg";
+import coffeeimage5 from "../images/image19.jpg";
+import coffeeimage6 from "../images/image24.jpg";
 
 const FeaturedCards = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full min-h-screen grid grid-cols-1 gap-6 px-6 py-4 lg:px-28">
+    <section className="max-w-screen-3xl mx-auto w-full min-h-screen bg-white grid grid-cols-1 gap-6 px-6 py-4 lg:px-28">
       <h2 className="text-4xl md:text-5xl py-16">Featured Coffees</h2>
       {/* Grid elements */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
