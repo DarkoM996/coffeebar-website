@@ -68,19 +68,43 @@ const FeaturedCards = () => {
       <div className="flex flex-grow border-b border-stone-300 py-12"></div>
       {/* About Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12 py-16 w-full h-full">
-        <div className="relative">
+        <div className="relative h-[500px]">
           <img
             src={coffeeimage5}
             alt="coffee image 5"
-            className="w-full h-[500px] object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-2xl"
           />
+          {/* Absolute position div with text and CTA */}
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-6 bg-black/30 rounded-2xl px-6 py-4">
+            <h3>Skilled Barristas</h3>
+            <p>
+              Skilled Baristas are essential part of our coffee culture. Read
+              what else is a strong part of our values.
+            </p>
+            {/* Button + icon div */}
+            <div>
+              <button className="text uppercase text-xl p-2">Learn More</button>
+            </div>
+          </div>
         </div>
-        <div className="relative">
+        <div className="relative h-[500px]">
           <img
             src={coffeeimage6}
             alt="coffee image 6"
-            className="w-full h-[500px] object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-2xl"
           />
+          {/* Absolute position div with text and CTA */}
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-6 bg-black/30 rounded-2xl px-6 py-4">
+            <h3>Unforgettable Experiences</h3>
+            <p>
+              How a customer enjoys in our coffee is just one step on how we
+              focus to provide you unforgettable experiences.
+            </p>
+            {/* Button + icon div */}
+            <div>
+              <button className="text uppercase text-xl p-2">Learn More</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
