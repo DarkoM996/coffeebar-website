@@ -75,9 +75,11 @@ const FeaturedCards = () => {
             className="w-full h-full object-cover rounded-2xl"
           />
           {/* Absolute position div with text and CTA */}
-          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-6 bg-black/30 rounded-2xl px-6 py-4">
-            <h3>Skilled Barristas</h3>
-            <p>
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-6 bg-black/50 rounded-2xl px-6 py-4 lg:px-16 text-stone-300">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl">
+              Skilled Barristas
+            </h3>
+            <p className="text-base">
               Skilled Baristas are essential part of our coffee culture. Read
               what else is a strong part of our values.
             </p>
@@ -94,9 +96,11 @@ const FeaturedCards = () => {
             className="w-full h-full object-cover rounded-2xl"
           />
           {/* Absolute position div with text and CTA */}
-          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-6 bg-black/30 rounded-2xl px-6 py-4">
-            <h3>Unforgettable Experiences</h3>
-            <p>
+          <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center gap-6 bg-black/50 rounded-2xl px-6 py-4 lg:px-16 text-stone-300">
+            <h3 className="text-2xl md:text-3xl lg:text-4xl">
+              Unforgettable Experiences
+            </h3>
+            <p className="text-base">
               How a customer enjoys in our coffee is just one step on how we
               focus to provide you unforgettable experiences.
             </p>
