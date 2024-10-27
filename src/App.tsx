@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import NewestCoffees from "./components/NewestCoffees";
 import CTA from "./components/CTA";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <FeaturedCards />
       <NewestCoffees />
       <CTA />
+      <Footer />
     </>
   );
 };
