@@ -7,7 +7,7 @@ const FeaturedCards = () => {
       {/* Grid elements */}
       <div className="">
         {/* Grid element #1 */}
-        <div className="flex flex-col justify-center items-center gap-6">
+        <div className="flex flex-col justify-center items-center gap-6 h-auto w-full">
           <div className="relative">
             <img
               src={coffeeimage1}
@@ -15,9 +15,8 @@ const FeaturedCards = () => {
               className="w-full h-[520px] object-cover rounded-2xl"
             />
           </div>
-          <div>
-            <h4 className="text-3xl md:text-4xl">Espresso</h4>
-          </div>
+          {/* div container can be put here or removed..  */}
+          <h4 className="text-3xl md:text-4xl">Espresso</h4>
         </div>
       </div>
     </section>
