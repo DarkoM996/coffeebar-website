@@ -1,6 +1,6 @@
 import coffeeimage1 from "../images/image2.jpg";
 import coffeeimage2 from "../images/image3.jpg";
-import coffeeimage3 from "../images/image4.jpg";
+import coffeeimage3 from "../images/image11.jpg";
 import coffeeimage4 from "../images/image5.jpg";
 import coffeeimage5 from "../images/image19.jpg";
 import coffeeimage6 from "../images/image24.jpg";
