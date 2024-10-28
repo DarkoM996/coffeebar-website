@@ -86,21 +86,21 @@ const Footer2 = () => {
         {/* Featured Section */}
         <div className="flex flex-col justify-start items-start gap-4">
           <h4 className="text-3xl text-primary_backgroundLighterColor-200">
-            Featured Coffees
+            Useful Links
           </h4>
           <div className="flex flex-col justify-start items-start gap-2">
-            <p className="text-xl text-primary_backgroundLighterColor-400">
-              Espresso
-            </p>
-            <p className="text-xl text-primary_backgroundLighterColor-400">
-              Espresso
-            </p>
-            <p className="text-xl text-primary_backgroundLighterColor-400">
-              Espresso
-            </p>
-            <p className="text-xl text-primary_backgroundLighterColor-400">
-              Espresso
-            </p>
+            <a className="text-xl text-primary_backgroundLighterColor-400">
+              About
+            </a>
+            <a className="text-xl text-primary_backgroundLighterColor-400">
+              Coffees
+            </a>
+            <a className="text-xl text-primary_backgroundLighterColor-400">
+              Contact
+            </a>
+            <a className="text-xl text-primary_backgroundLighterColor-400">
+              Privacy Policy
+            </a>
           </div>
         </div>
         {/* Featured Section */}
@@ -131,7 +131,7 @@ const Footer2 = () => {
       {/* Copyright section */}
       <div className="p-6 text-center text-primary_backgroundDarkerColor-600">
         <span>© 2024 Copyright:</span>
-        <a href="/" className="text-primary_backgroundDarkerColor-900 ml-1">
+        <a href="/" className=" text-primary_backgroundLighterColor-500 ml-1">
           CoffeeBar
         </a>
       </div>

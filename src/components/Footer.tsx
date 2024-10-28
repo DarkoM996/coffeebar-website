@@ -9,97 +9,106 @@ import { MdFax, MdHouse, MdLocalPhone, MdMail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <footer className="max-w-screen-3xl mx-auto px-6 py-4 w-full min-h-screen grid grid-cols-1 gap-8  bg-stone-950 text-stone-300">
-      <div className="flex justify-between items-center lg:justify-between border-b-2 border-stone-900 p-6">
-        <div className="mr-12 hidden lg:block">
-          <span className="text-xl">Find us on social media</span>
+    <footer className="max-w-screen-3xl mx-auto w-full relative px-6 py-4 lg:px-28 bg-primary_backgroundDarkerColor-950">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-6 w-full h-full py-6 border-b border-primary_backgroundDarkerColor-800 border-spacing-x-4">
+        {/* Flex elements */}
+        <div className="">
+          <h4 className="text-3xl text-primary_backgroundLighterColor-500">
+            CoffeeBar
+          </h4>
         </div>
-        {/* Social media icons container!! */}
         <div className="flex items-center gap-2">
-          <a href="/" className="text-2xl mr-2">
+          <a
+            href="/"
+            className="text-2xl mr-2 text-primary_backgroundLighterColor-500"
+          >
             <FaInstagram />
           </a>
-          <a href="/" className="text-2xl mr-2">
+          <a
+            href="/"
+            className="text-2xl mr-2 text-primary_backgroundLighterColor-500"
+          >
             <FaFacebook />
           </a>
-          <a href="/" className="text-2xl mr-2">
+          <a
+            href="/"
+            className="text-2xl mr-2 text-primary_backgroundLighterColor-500"
+          >
             <FaYoutube />
           </a>
-          <a href="/" className="text-2xl mr-2">
+          <a
+            href="/"
+            className="text-2xl mr-2 text-primary_backgroundLighterColor-500"
+          >
             <FaTwitter />
           </a>
-          <a href="/" className="text-2xl mr-2">
+          <a
+            href="/"
+            className="text-2xl mr-2 text-primary_backgroundLighterColor-500"
+          >
             <FaPinterest />
           </a>
         </div>
       </div>
-      {/* Grid elements.. the div on top of the grid is for spacing mostly */}
-      <div className="mx-6 py-10 text-center md:text-left">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-24">
-          <div className="">
-            <h4 className="text-3xl font-bold pb-4">CoffeeBar</h4>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum
-              cupiditate nobis consequuntur quasi autem deleniti voluptatem
-              corrupti cum possimus officiis molestiae, quos molestias, in
-              tempora, quod expedita. Officiis, eius quas?
+      {/* More items */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-16 w-full py-12">
+        <div className="flex flex-col justify-start items-start gap-4">
+          <h4 className="text-3xl text-primary_backgroundLighterColor-500">
+            CoffeeBar
+          </h4>
+          <p className="text-xl text-primary_backgroundLighterColor-500">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
+            reprehenderit, voluptas nemo repudiandae eius ipsam mollitia,
+            accusamus nobis debitis ipsum velit cum libero quia ea. Sequi
+            asperiores accusamus eaque officia.
+          </p>
+        </div>
+        {/* Featured Section */}
+        <div className="flex flex-col justify-start items-start gap-4">
+          <h4 className="text-3xl text-primary_backgroundLighterColor-200">
+            Featured Coffees
+          </h4>
+          <div className="flex flex-col justify-start items-start gap-2">
+            <p className="text-xl text-primary_backgroundLighterColor-500">
+              Espresso
+            </p>
+            <p className="text-xl text-primary_backgroundLighterColor-500">
+              Macchiato
+            </p>
+            <p className="text-xl text-primary_backgroundLighterColor-500">
+              Fredo Espresso
+            </p>
+            <p className="text-xl text-primary_backgroundLighterColor-500">
+              Latte
             </p>
           </div>
-          {/* <!-- Products section --> */}
-          <div className="">
-            <h4 className="mb-4 text-3xl flex justify-center font-bold md:justify-start">
-              Featured Coffees
-            </h4>
-            <p className="mb-4">
-              <a href="/" className="text-[#bebab2]">
-                Espresso
-              </a>
-            </p>
-            <p className="mb-4">
-              <a href="/" className="text-[#bebab2] ">
-                Fredo Espresso
-              </a>
-            </p>
-            <p className="mb-4">
-              <a className="text-[#bebab2] ">Latte</a>
-            </p>
-            <p>
-              <a href="/" className="text-[#bebab2] ">
-                Macchiato
-              </a>
-            </p>
+        </div>
+        {/* Featured Section */}
+        <div className="flex flex-col justify-start items-start gap-4">
+          <h4 className="text-3xl text-primary_backgroundLighterColor-200">
+            Useful Links
+          </h4>
+          <div className="flex flex-col justify-start items-start gap-2">
+            <a className="text-xl text-primary_backgroundLighterColor-400">
+              About
+            </a>
+            <a className="text-xl text-primary_backgroundLighterColor-400">
+              Coffees
+            </a>
+            <a className="text-xl text-primary_backgroundLighterColor-400">
+              Contact
+            </a>
+            <a className="text-xl text-primary_backgroundLighterColor-400">
+              Privacy Policy
+            </a>
           </div>
-          {/* <!-- Useful Links --> */}
-          <div className="">
-            <h4 className="mb-4 text-3xl flex justify-center font-bold md:justify-start">
-              Useful Links
-            </h4>
-            <p className="mb-4">
-              <a href="/" className="text-[#bebab2]">
-                Coffees
-              </a>
-            </p>
-            <p className="mb-4">
-              <a href="/" className="text-[#bebab2]">
-                About
-              </a>
-            </p>
-            <p className="mb-4">
-              <a href="/" className="text-[#bebab2]">
-                Contact
-              </a>
-            </p>
-            <p>
-              <a href="/" className="text-[#bebab2]">
-                Instagram
-              </a>
-            </p>
-          </div>
-          {/* Links for part of a page */}
-          <div className="">
-            <h4 className="mb-4 text-3xl flex justify-center font-bold  md:justify-start">
-              Informations
-            </h4>
+        </div>
+        {/* Featured Section */}
+        <div className="flex flex-col justify-start items-start gap-4">
+          <h4 className="text-3xl text-primary_backgroundLighterColor-200">
+            Featured Coffees
+          </h4>
+          <div className="flex flex-col justify-start items-start gap-2">
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <MdHouse className="text-2xl mr-1" />
               <a className="text-[#bebab2]">London, UK</a>
@@ -120,9 +129,9 @@ const Footer = () => {
         </div>
       </div>
       {/* Copyright section */}
-      <div className="p-6 text-center text-[#ccc]">
+      <div className="p-6 text-center text-primary_backgroundDarkerColor-600">
         <span>© 2024 Copyright:</span>
-        <a href="/" className="text-[#eee] ml-1">
+        <a href="/" className=" text-primary_backgroundLighterColor-500 ml-1">
           CoffeeBar
         </a>
       </div>
