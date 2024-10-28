@@ -35,7 +35,7 @@ const Footer = () => {
       </div>
       {/* Grid elements.. the div on top of the grid is for spacing mostly */}
       <div className="mx-6 py-10 text-center md:text-left">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-24 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-24">
           <div className="">
             <h4 className="text-3xl font-bold pb-4">CoffeeBar</h4>
             <p>
@@ -48,24 +48,24 @@ const Footer = () => {
           {/* <!-- Products section --> */}
           <div className="">
             <h4 className="mb-4 text-3xl flex justify-center font-bold md:justify-start">
-              Destinations
+              Featured Coffees
             </h4>
             <p className="mb-4">
               <a href="/" className="text-[#bebab2]">
-                Barcelona
+                Espresso
               </a>
             </p>
             <p className="mb-4">
               <a href="/" className="text-[#bebab2] ">
-                Amsterdam
+                Fredo Espresso
               </a>
             </p>
             <p className="mb-4">
-              <a className="text-[#bebab2] ">Rome</a>
+              <a className="text-[#bebab2] ">Latte</a>
             </p>
             <p>
               <a href="/" className="text-[#bebab2] ">
-                Paris
+                Macchiato
               </a>
             </p>
           </div>
@@ -76,7 +76,7 @@ const Footer = () => {
             </h4>
             <p className="mb-4">
               <a href="/" className="text-[#bebab2]">
-                Destinations
+                Coffees
               </a>
             </p>
             <p className="mb-4">
