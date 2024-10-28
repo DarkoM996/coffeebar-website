@@ -1,8 +1,9 @@
 import CTA from "../components/CTA";
 import FeaturedCards from "../components/FeaturedCards";
+import Footer2 from "../components/Footer2";
 import Hero from "../components/Hero";
 import NewestCoffees from "../components/NewestCoffees";
-import Footer from "./../components/Footer";
+// import Footer from "./../components/Footer";
 
 const HomePage = () => {
   return (
@@ -11,7 +12,8 @@ const HomePage = () => {
       <FeaturedCards />
       <NewestCoffees />
       <CTA />
-      <Footer />
+      {/* <Footer /> */}
+      <Footer2 />
     </>
   );
 };
