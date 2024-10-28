@@ -2,6 +2,7 @@ import { MdMenu } from "react-icons/md";
 import { IoMdSearch } from "react-icons/io";
 import { MdPerson } from "react-icons/md";
 import { MdShoppingBag } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -20,6 +21,13 @@ const Navbar = () => {
             <MdMenu />
           </div>
         </div>
+        {/* Menu Dropdown */}
+        <ul>
+          <Link to="/"></Link>
+          <Link to="/about"></Link>
+          <Link to="/coffees"></Link>
+          <Link to="/contact"></Link>
+        </ul>
       </div>
     </nav>
   );
