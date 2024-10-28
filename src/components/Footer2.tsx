@@ -73,13 +73,13 @@ const Footer2 = () => {
               Espresso
             </p>
             <p className="text-xl text-primary_backgroundLighterColor-500">
-              Espresso
+              Macchiato
             </p>
             <p className="text-xl text-primary_backgroundLighterColor-500">
-              Espresso
+              Fredo Espresso
             </p>
             <p className="text-xl text-primary_backgroundLighterColor-500">
-              Espresso
+              Latte
             </p>
           </div>
         </div>
