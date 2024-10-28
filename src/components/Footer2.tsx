@@ -68,6 +68,13 @@ const Footer2 = () => {
           <p className="text-xl">Espresso</p>
         </div>
       </div>
+      {/* Copyright section */}
+      <div className="p-6 text-center text-primary_backgroundDarkerColor-600">
+        <span>© 2024 Copyright:</span>
+        <a href="/" className="text-primary_backgroundDarkerColor-900 ml-1">
+          CoffeeBar
+        </a>
+      </div>
     </footer>
   );
 };
