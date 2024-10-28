@@ -22,7 +22,7 @@ const Navbar = () => {
           </div>
         </div>
         {/* Menu Dropdown */}
-        <ul>
+        <ul className="hidden">
           <Link to="/"></Link>
           <Link to="/about"></Link>
           <Link to="/coffees"></Link>
