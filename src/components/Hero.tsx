@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <main className="max-w-screen-3xl mx-auto w-full min-h-screen bg-primary_backgroundLighterColor-50">
       {/* Container  */}
-      <div className="flex flex-col justify-center items-center w-full h-full gap-8 lg:gap-20">
+      <div className="flex flex-col justify-center items-center w-full h-full gap-8 lg:gap-20 py-2 md:py-20">
         {/* Additional text container for better space and overall design look */}
         <div className="flex flex-col justify-center items-center w-full h-full gap-8 px-6 py-8 lg:px-20">
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 w-full">
