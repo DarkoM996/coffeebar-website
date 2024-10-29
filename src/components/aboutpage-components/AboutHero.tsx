@@ -1,7 +1,15 @@
+import backgroundimage from "../../images/image11.jpg";
+
 const AboutHero = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto relative w-full h-screen px-6 py-4 lg:px-28">
-      AboutHero
+    <section className="max-w-screen-3xl mx-auto relative w-full h-[calc(100vh-5rem)]">
+      <div className="relative w-full h-full">
+        <img
+          src={backgroundimage}
+          alt="background image"
+          className="w-full h-full object-cover"
+        />
+      </div>
     </section>
   );
 };
