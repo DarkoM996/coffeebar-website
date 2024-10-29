@@ -14,7 +14,7 @@ const AboutHero = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-black/40 flex flex-col justify-center items-center text-white">
         {/* div for spacing for the entire group */}
         <div className="flex flex-col justify-center items-center w-full h-full">
-          <div className="flex flex-col justify-center items-center gap-6 lg:gap-48">
+          <div className="flex flex-col justify-center items-center gap-6 ">
             {/* Div for Spacing for these two headers only */}
             <div className="flex flex-col justify-center items-center gap-2">
               <h4 className="text-xl md:text-2xl">Life is short</h4>
