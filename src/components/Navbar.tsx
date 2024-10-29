@@ -10,6 +10,8 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
+  // I don't need active link here because this web app and design doesn't require it
+
   return (
     <nav className="border-b border-stone-200">
       <div className="max-w-screen-3xl mx-auto w-full h-20 flex justify-between items-center px-6 py-4 lg:px-28">
