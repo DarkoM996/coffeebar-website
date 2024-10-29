@@ -36,7 +36,7 @@ const Navbar = () => {
           className={
             !nav
               ? "hidden"
-              : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center gap-8 bg-primary_backgroundDarkerColor-950 text-primary_backgroundLighterColor-100 z-10"
+              : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center gap-8 lg:gap-24 bg-primary_backgroundDarkerColor-950 text-primary_backgroundLighterColor-100 z-10"
           }
         >
           <Link
