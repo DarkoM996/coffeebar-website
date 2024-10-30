@@ -11,6 +11,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   // I don't need active link here because this web app and design doesn't require it
+  // the classes fixed top-0 left-0 bg-transparent w-full z-10 with text white gives navbar on top of hero section design. Just add z index of lets z-10 with full width (w-full) so it stays on top of the background picture!
 
   return (
     <nav className="border-b border-stone-200 fixed top-0 left-0 bg-transparent z-20 w-full text-white">
