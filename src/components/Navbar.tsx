@@ -14,7 +14,7 @@ const Navbar = () => {
   // the classes fixed top-0 left-0 bg-transparent w-full z-10 with text white gives navbar on top of hero section design. Just add z index of lets z-10 with full width (w-full) so it stays on top of the background picture!
 
   return (
-    <nav className="border-b border-stone-200 sticky top-0 z-20">
+    <nav className="border-b border-stone-200  backdrop-blur-lg sticky top-0 z-20">
       <div className="max-w-screen-3xl mx-auto w-full h-20 flex justify-between items-center px-6 py-4 lg:px-28">
         {/* TypeLogo */}
         <div>
