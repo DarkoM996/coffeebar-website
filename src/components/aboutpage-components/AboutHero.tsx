@@ -1,4 +1,5 @@
 import backgroundimage from "../../images/image11.jpg";
+import { MdKeyboardArrowDown } from "react-icons/md";
 
 const AboutHero = () => {
   return (
@@ -23,9 +24,10 @@ const AboutHero = () => {
               </h1>
             </div>
             {/* another div for button + icon */}
-            <div className="flex flex-col items-center gap-1">
-              <button>Swipe</button>
-              <p>+</p>
+            {/* Swipe Down Button with CSS animation pulse */}
+            <div className="flex flex-col justify-center items-center gap-2">
+              <button className="text-xl ">Swipe Down</button>
+              <MdKeyboardArrowDown className="text-2xl" />
             </div>
           </div>
         </div>
