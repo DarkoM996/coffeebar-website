@@ -2,7 +2,7 @@ import image from "../../images/image7.jpg";
 
 const AboutValueOne = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-8 md:py-16 lg:py-32">
+    <section className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-8 md:py-16 lg:px-28 lg:pt-32">
       {/* Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 w-full h-full gap-6 lg:gap-y-16">
         <div className="lg:col-span-4">
