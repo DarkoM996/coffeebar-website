@@ -1,4 +1,4 @@
-import image from "../../images/image7.jpg";
+import image from "../../images/image21.jpg";
 
 const AboutValueTwo = () => {
   return (
@@ -7,7 +7,7 @@ const AboutValueTwo = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 w-full h-full gap-6 lg:gap-y-16">
         <div className="lg:col-span-4">
           <h2 className="text-3xl md:text-4xl lg:text-6xl lg:w-1/3">
-            Coffee Shop`s story
+            Ultimate Experience
           </h2>
         </div>
         <div className="grid grid-cols-1 gap-4 lg:col-span-2">
