@@ -1,33 +1,29 @@
+import image from "../../images/image7.jpg";
+
 const AboutValueOne = () => {
   return (
     <section className="max-w-screen-3xl mx-auto w-full h-screen relative px-6 py-8">
       {/* Grid */}
-      <div>
-        <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 w-full h-full gap-6 lg:gap-y-16">
+        <div className="lg:col-span-4">
           <h2>Coffee Shop`s story</h2>
         </div>
-        <div>
+        <div className="grid grid-cols-1 lg:col-span-2">
           <p>
-            We are devoted to making the best cup of coffee of your choice. The
-            CoffeeShop is full of passionate coffee makers.We are devoted to
-            making the best cup of coffee of your choice. We are devoted to
-            making the best cup of coffee of your choice. The CoffeeShop is full
-            of passionate coffee makers.We are devoted to making the best cup of
-            coffee of your choice.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            impedit corporis, fugit quae ipsam, doloremque error distinctio
+            aspernatur quibusdam pariatur deleniti suscipit vero eveniet veniam
+            reiciendis ullam eius itaque voluptas?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+            impedit corporis, fugit quae ipsam, doloremque error distinctio
+            aspernatur quibusdam pariatur deleniti suscipit vero eveniet veniam
+            reiciendis ullam eius itaque voluptas?
           </p>
         </div>
-        <div>
-          <p>
-            We are devoted to making the best cup of coffee of your choice. The
-            CoffeeShop is full of passionate coffee makers.We are devoted to
-            making the best cup of coffee of your choice. We are devoted to
-            making the best cup of coffee of your choice. The CoffeeShop is full
-            of passionate coffee makers.We are devoted to making the best cup of
-            coffee of your choice.
-          </p>
-        </div>
-        <div>
-          <img src="" alt="" />
+        <div className="relative h-[500px] md:col-span-2 lg:col-span-6">
+          <img src={image} alt="image" className="w-full h-full object-cover" />
         </div>
       </div>
     </section>
