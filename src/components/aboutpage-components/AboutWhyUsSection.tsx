@@ -2,7 +2,7 @@ import { FaCoffee } from "react-icons/fa";
 
 const AboutWhyUsSection = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full h-screen relative px-6 py-8 lg:px-16 lg:py-24">
+    <section className="max-w-screen-3xl mx-auto w-full h-fit relative px-6 py-8 lg:px-16 lg:py-24">
       <div className="flex flex-col justify-center items-center gap-6 md:gap-12 lg:gap-20">
         <div className="py-8">
           <h2 className="text-3xl md:text-4xl lg:text-6xl">Why Us?</h2>
@@ -27,9 +27,9 @@ const AboutWhyUsSection = () => {
               <FaCoffee className="text-4xl text-black" />
             </div>
             <div className="flex flex-col justify-center items-start gap-4">
-              <h4 className="text-2xl md:text-4xl w-full">Skilled barristas</h4>
+              <h4 className="text-2xl md:text-4xl w-full">Coffee community</h4>
               <p className="lg:w-3/4">
-                Dedication towards a high quality of making coffee
+                Join a movement of passionate coffee drinkers
               </p>
             </div>
           </div>
@@ -39,9 +39,9 @@ const AboutWhyUsSection = () => {
               <FaCoffee className="text-4xl text-black" />
             </div>
             <div className="flex flex-col justify-center items-start gap-4">
-              <h4 className="text-2xl md:text-4xl w-full">Skilled barristas</h4>
+              <h4 className="text-2xl md:text-4xl w-full">Delivery</h4>
               <p className="lg:w-3/4">
-                Dedication towards a high quality of making coffee
+                We deliver your coffee to your comfort home
               </p>
             </div>
           </div>
