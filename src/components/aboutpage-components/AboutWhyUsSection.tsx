@@ -10,7 +10,7 @@ const AboutWhyUsSection = () => {
         {/* Container with icons and text */}
         <div className="flex flex-col md:flex-row justify-center items-start w-full h-full gap-6 md:gap-8 lg:gap-16 lg:px-28">
           {/* Stuff #1 */}
-          <div className="flex flex-row justify-center items-start gap-4 md:gap-6 lg:gap-10">
+          <div className="flex flex-row justify-center items-start gap-4 md:gap-6">
             <div className=" bg-stone-300 rounded-full flex flex-col justify-center items-start text-2xl p-4">
               <FaCoffee className="text-4xl text-black" />
             </div>
