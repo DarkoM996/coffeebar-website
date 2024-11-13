@@ -21,24 +21,28 @@ const AboutWhyUsSection = () => {
               </p>
             </div>
           </div>
-          {/* Stuff #1 */}
-          <div className="flex flex-row justify-center items-center gap-4 md:gap-6 lg:gap-10">
-            <div className=" bg-stone-300 rounded-full flex flex-col justify-center items-center text-2xl p-4">
+          {/* Stuff #2 */}
+          <div className="flex flex-row justify-center items-start gap-4 md:gap-6">
+            <div className=" bg-stone-300 rounded-full flex flex-col justify-center items-start text-2xl p-4">
               <FaCoffee className="text-4xl text-black" />
             </div>
-            <div className="flex flex-col justify-center items-start gap-2">
+            <div className="flex flex-col justify-center items-start gap-4">
               <h4 className="text-2xl md:text-4xl w-full">Skilled barristas</h4>
-              <p>Join a movement of passionate coffee drinkers</p>
+              <p className="lg:w-3/4">
+                Dedication towards a high quality of making coffee
+              </p>
             </div>
           </div>
-          {/* Stuff #1 */}
-          <div className="flex flex-row justify-center items-center gap-4 md:gap-6 lg:gap-10">
-            <div className=" bg-stone-300 rounded-full flex flex-col justify-center items-center text-2xl p-4">
+          {/* Stuff #3 */}
+          <div className="flex flex-row justify-center items-start gap-4 md:gap-6">
+            <div className=" bg-stone-300 rounded-full flex flex-col justify-center items-start text-2xl p-4">
               <FaCoffee className="text-4xl text-black" />
             </div>
-            <div className="flex flex-col justify-center items-start gap-2">
+            <div className="flex flex-col justify-center items-start gap-4">
               <h4 className="text-2xl md:text-4xl w-full">Skilled barristas</h4>
-              <p>We deliver your coffee to your comfort home</p>
+              <p className="lg:w-3/4">
+                Dedication towards a high quality of making coffee
+              </p>
             </div>
           </div>
         </div>
