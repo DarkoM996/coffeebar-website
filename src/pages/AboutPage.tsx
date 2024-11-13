@@ -3,6 +3,7 @@ import AboutValueOne from "../components/aboutpage-components/AboutValueOne";
 import AboutValueTwo from "../components/aboutpage-components/AboutValueTwo";
 import AboutWhyUsSection from "../components/aboutpage-components/AboutWhyUsSection";
 import CTA from "../components/CTA";
+import Footer from "./../components/Footer";
 
 const AboutPage = () => {
   return (
@@ -12,6 +13,7 @@ const AboutPage = () => {
       <AboutValueOne />
       <AboutValueTwo />
       <CTA />
+      <Footer />
     </>
   );
 };
