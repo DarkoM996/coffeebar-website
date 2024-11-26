@@ -40,7 +40,7 @@ const Hero = () => {
           {/* Swipe Down Button with CSS animation pulse */}
           <div className="flex flex-col justify-center items-center gap-2">
             <button className="text-xl ">Swipe Down</button>
-            <MdKeyboardArrowDown className="text-2xl" />
+            <MdKeyboardArrowDown className="text-2xl animate-bounce" />
           </div>
         </div>
       </div>
