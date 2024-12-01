@@ -42,7 +42,7 @@ const ContactPage = () => {
               placeholder="Your message here"
             />
             <div className="flex flex-col justify-center items-start w-full h-full">
-              <button className="px-6 py-4 bg-black hover:bg-primary_darkerShade-900 text-white text-transform: uppercase rounded-full ">
+              <button className="px-6 py-4 bg-black hover:bg-primary_backgroundDarkerColor-950 text-white text-transform: uppercase rounded-full ">
                 Submit Your Message
               </button>
             </div>
