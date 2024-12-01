@@ -1,6 +1,6 @@
 const ContactPage = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full h-screen relative px-6 py-8 md:px-12 md:py-10 lg:px-28">
+    <section className="max-w-screen-3xl mx-auto w-full h-fit relative px-6 py-8 md:px-12 md:py-10 lg:px-28 lg:py-28">
       <div className="flex flex-col md:flex-row justify-center items-top gap-6 md:gap-10 lg:gap-24">
         {/* Container left */}
         <div className="flex flex-col justify-center items-start w-full h-full gap-6 py-8">
