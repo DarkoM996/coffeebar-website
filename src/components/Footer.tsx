@@ -110,25 +110,25 @@ const Footer = () => {
           </h4>
           <div className="flex flex-col justify-start items-start gap-2">
             <p className="mb-4 flex items-center justify-center md:justify-start">
-              <MdHouse className="text-2xl mr-1" />
+              <MdHouse className="text-2xl mr-1 md:mr-2 text-primary_backgroundDarkerColor-600" />
               <a className="text-primary_backgroundLighterColor-200 text-sm sm:text-xl">
                 London, UK
               </a>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
-              <MdMail className="text-2xl mr-1" />
+              <MdMail className="text-2xl mr-1 md:mr-2 text-primary_backgroundDarkerColor-600" />
               <a className="text-primary_backgroundLighterColor-200 text-sm sm:text-xl">
                 travellife@contact.com
               </a>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
-              <MdLocalPhone className="text-2xl mr-1" />
+              <MdLocalPhone className="text-2xl mr-1 md:mr-2 text-primary_backgroundDarkerColor-600" />
               <a className="text-primary_backgroundLighterColor-200 text-sm sm:text-xl">
                 + 01 234 567 88
               </a>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
-              <MdFax className="text-2xl mr-1" />
+              <MdFax className="text-2xl mr-1 md:mr-2 text-primary_backgroundDarkerColor-600" />
               <a className="text-[#bebab2] text-sm sm:text-xl">
                 + 01 234 567 89
               </a>
