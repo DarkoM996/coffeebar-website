@@ -17,12 +17,12 @@ import image16 from "../images/image16.jpg";
 
 const CoffeesPage = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full h-screen relative px-6 py-8 lg:px-28">
+    <section className="max-w-screen-3xl mx-auto w-full h-screen relative px-6 py-8 md:px-12 lg:px-16 xl:px-28">
       <h1 className="text-4xl md:text-5xl lg:text-7xl pb-12 lg:py-12">
         Available Coffees
       </h1>
       {/* Grid of products */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-y-28">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 gap-y-16 lg:gap-y-28">
         {/* Product 1 */}
         <div className="grid grid-cols-1 place-content-start gap-10">
           <div className="relative w-full h-[350px]">
