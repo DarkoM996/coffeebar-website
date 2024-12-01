@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
       {/* More items */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-16 w-full py-12">
-        <div className="flex flex-col justify-start items-start gap-4">
+        <div className="flex flex-col justify-start items-start gap-4 sm:gap-6 lg:gap-8">
           <h4 className="text-3xl text-primary_backgroundLighterColor-500">
             CoffeeBar
           </h4>
@@ -64,7 +64,7 @@ const Footer = () => {
           </p>
         </div>
         {/* Featured Section */}
-        <div className="flex flex-col justify-start items-start gap-4">
+        <div className="flex flex-col justify-start items-start gap-4 sm:gap-6 lg:gap-8">
           <h4 className="text-3xl text-primary_backgroundLighterColor-200">
             Featured Coffees
           </h4>
@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Featured Section */}
-        <div className="flex flex-col justify-start items-start gap-4">
+        <div className="flex flex-col justify-start items-start gap-4 sm:gap-6 lg:gap-8">
           <h4 className="text-3xl text-primary_backgroundLighterColor-200">
             Useful Links
           </h4>
@@ -104,7 +104,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Featured Section */}
-        <div className="flex flex-col justify-start items-start gap-4">
+        <div className="flex flex-col justify-start items-start gap-4 sm:gap-6 lg:gap-8">
           <h4 className="text-3xl text-primary_backgroundLighterColor-200">
             Featured Coffees
           </h4>
