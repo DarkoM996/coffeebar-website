@@ -7,7 +7,7 @@ const ContactPage = () => {
           <h1 className="text-4xl md:text-5xl lg:text-7xl leading-tight lg:leading-tight">
             Contact Page
           </h1>
-          <p>
+          <p className="w-full md:w-3/4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
             corrupti explicabo quae similique, recusandae magni atque odit
             minima eveniet accusantium? Sunt, sit adipisci enim porro doloribus
