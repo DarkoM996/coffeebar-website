@@ -17,8 +17,8 @@ import image16 from "../images/image16.jpg";
 
 const CoffeesPage = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full h-screen relative px-6 py-8 md:px-12 lg:px-16 xl:px-28">
-      <h1 className="text-4xl md:text-5xl lg:text-7xl pb-12 lg:py-12">
+    <section className="max-w-screen-3xl mx-auto w-full min-h-screen relative px-6 py-8 md:px-12 lg:px-16 xl:px-28">
+      <h1 className="text-4xl md:text-5xl lg:text-7xl pb-12 lg:py-12 xl:pb-20">
         Available Coffees
       </h1>
       {/* Grid of products */}
