@@ -22,7 +22,7 @@ const CoffeesPage = () => {
         Available Coffees
       </h1>
       {/* Grid of products */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-y-28">
         {/* Product 1 */}
         <div className="grid grid-cols-1 place-content-start gap-10">
           <div className="relative w-full h-[350px]">
