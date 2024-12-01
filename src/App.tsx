@@ -9,6 +9,7 @@ import MainLayout from "./layouts/MainLayout";
 import CoffeesPage from "./pages/CoffeesPage";
 import AboutPage from "./pages/AboutPage";
 import Error404 from "./pages/Error404";
+import ContactPage from "./pages/ContactPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +17,7 @@ const router = createBrowserRouter(
       <Route index element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/coffees" element={<CoffeesPage />} />
+      <Route path="/contact" element={<ContactPage />} />
       <Route path="*" element={<Error404 />} />
     </Route>
   )
