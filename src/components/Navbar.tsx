@@ -17,9 +17,9 @@ const Navbar = () => {
     <nav className="border-b border-stone-200 backdrop-filter backdrop-blur-3xl sticky top-0 z-50 text-black">
       <div className="max-w-screen-3xl mx-auto w-full h-20 flex justify-between items-center px-6 py-4 lg:px-28">
         {/* TypeLogo */}
-        <div>
+        <Link to="/">
           <h3 className="text-3xl">CoffeeBar</h3>
-        </div>
+        </Link>
         {/* Icons */}
         <div className="flex justify-center items-center gap-2 text-3xl">
           <MdShoppingBag />
