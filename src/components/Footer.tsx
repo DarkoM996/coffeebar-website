@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </div>
       {/* More items */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-16 w-full py-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16 w-full py-12">
         <div className="flex flex-col justify-start items-start gap-4 sm:gap-6 lg:gap-8">
           <h4 className="text-3xl text-primary_backgroundLighterColor-500">
             CoffeeBar
