@@ -19,6 +19,127 @@ const CoffeesPage = () => {
           </div>
           <h4 className="text-xl md:text-2xl">Coffee Name</h4>
         </div>
+        {/* Product 1 */}
+        <div className="grid grid-cols-1 place-content-start gap-10">
+          <div className="relative w-full h-[350px]">
+            <img
+              src={image}
+              alt="coffee image"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
+            />
+          </div>
+          <h4 className="text-xl md:text-2xl">Coffee Name</h4>
+        </div>
+        {/* Product 1 */}
+        <div className="grid grid-cols-1 place-content-start gap-10">
+          <div className="relative w-full h-[350px]">
+            <img
+              src={image}
+              alt="coffee image"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
+            />
+          </div>
+          <h4 className="text-xl md:text-2xl">Coffee Name</h4>
+        </div>
+        {/* Product 1 */}
+        <div className="grid grid-cols-1 place-content-start gap-10">
+          <div className="relative w-full h-[350px]">
+            <img
+              src={image}
+              alt="coffee image"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
+            />
+          </div>
+          <h4 className="text-xl md:text-2xl">Coffee Name</h4>
+        </div>
+        {/* Product 1 */}
+        <div className="grid grid-cols-1 place-content-start gap-10">
+          <div className="relative w-full h-[350px]">
+            <img
+              src={image}
+              alt="coffee image"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
+            />
+          </div>
+          <h4 className="text-xl md:text-2xl">Coffee Name</h4>
+        </div>
+        {/* Product 1 */}
+        <div className="grid grid-cols-1 place-content-start gap-10">
+          <div className="relative w-full h-[350px]">
+            <img
+              src={image}
+              alt="coffee image"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
+            />
+          </div>
+          <h4 className="text-xl md:text-2xl">Coffee Name</h4>
+        </div>
+        {/* Product 1 */}
+        <div className="grid grid-cols-1 place-content-start gap-10">
+          <div className="relative w-full h-[350px]">
+            <img
+              src={image}
+              alt="coffee image"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
+            />
+          </div>
+          <h4 className="text-xl md:text-2xl">Coffee Name</h4>
+        </div>
+        {/* Product 1 */}
+        <div className="grid grid-cols-1 place-content-start gap-10">
+          <div className="relative w-full h-[350px]">
+            <img
+              src={image}
+              alt="coffee image"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
+            />
+          </div>
+          <h4 className="text-xl md:text-2xl">Coffee Name</h4>
+        </div>
+        {/* Product 1 */}
+        <div className="grid grid-cols-1 place-content-start gap-10">
+          <div className="relative w-full h-[350px]">
+            <img
+              src={image}
+              alt="coffee image"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
+            />
+          </div>
+          <h4 className="text-xl md:text-2xl">Coffee Name</h4>
+        </div>
+        {/* Product 1 */}
+        <div className="grid grid-cols-1 place-content-start gap-10">
+          <div className="relative w-full h-[350px]">
+            <img
+              src={image}
+              alt="coffee image"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
+            />
+          </div>
+          <h4 className="text-xl md:text-2xl">Coffee Name</h4>
+        </div>
+        {/* Product 1 */}
+        <div className="grid grid-cols-1 place-content-start gap-10">
+          <div className="relative w-full h-[350px]">
+            <img
+              src={image}
+              alt="coffee image"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
+            />
+          </div>
+          <h4 className="text-xl md:text-2xl">Coffee Name</h4>
+        </div>
+        {/* Product 1 */}
+        <div className="grid grid-cols-1 place-content-start gap-10">
+          <div className="relative w-full h-[350px]">
+            <img
+              src={image}
+              alt="coffee image"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
+            />
+          </div>
+          <h4 className="text-xl md:text-2xl">Coffee Name</h4>
+        </div>
       </div>
     </section>
   );
