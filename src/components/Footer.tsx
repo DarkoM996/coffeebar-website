@@ -56,7 +56,7 @@ const Footer = () => {
           <h4 className="text-3xl text-primary_backgroundLighterColor-500">
             CoffeeBar
           </h4>
-          <p className="text-sm sm:text-base md:text-xl text-primary_backgroundLighterColor-500">
+          <p className="text-sm sm:text-base text-primary_backgroundLighterColor-500">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
             reprehenderit, voluptas nemo repudiandae eius ipsam mollitia,
             accusamus nobis debitis ipsum velit cum libero quia ea. Sequi
@@ -69,16 +69,16 @@ const Footer = () => {
             Featured Coffees
           </h4>
           <div className="flex flex-col justify-start items-start gap-2">
-            <p className="text-sm sm:text-xl text-primary_backgroundLighterColor-500">
+            <p className="text-sm sm:text-base text-primary_backgroundLighterColor-500">
               Espresso
             </p>
-            <p className="text-sm sm:text-xl text-primary_backgroundLighterColor-500">
+            <p className="text-sm sm:text-base text-primary_backgroundLighterColor-500">
               Macchiato
             </p>
-            <p className="text-sm sm:text-xl text-primary_backgroundLighterColor-500">
+            <p className="text-sm sm:text-base text-primary_backgroundLighterColor-500">
               Fredo Espresso
             </p>
-            <p className="text-sm sm:text-xl text-primary_backgroundLighterColor-500">
+            <p className="text-sm sm:text-base text-primary_backgroundLighterColor-500">
               Latte
             </p>
           </div>
@@ -89,16 +89,16 @@ const Footer = () => {
             Useful Links
           </h4>
           <div className="flex flex-col justify-start items-start gap-2">
-            <a className="text-sm sm:text-xl text-primary_backgroundLighterColor-400">
+            <a className="text-sm sm:text-base text-primary_backgroundLighterColor-400">
               About
             </a>
-            <a className="text-sm sm:text-xl text-primary_backgroundLighterColor-400">
+            <a className="text-sm sm:text-base text-primary_backgroundLighterColor-400">
               Coffees
             </a>
-            <a className="text-sm sm:text-xl text-primary_backgroundLighterColor-400">
+            <a className="text-sm sm:text-base text-primary_backgroundLighterColor-400">
               Contact
             </a>
-            <a className="text-sm sm:text-xl text-primary_backgroundLighterColor-400">
+            <a className="text-sm sm:text-base text-primary_backgroundLighterColor-400">
               Privacy Policy
             </a>
           </div>
@@ -111,25 +111,25 @@ const Footer = () => {
           <div className="flex flex-col justify-start items-start gap-2">
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <MdHouse className="text-2xl mr-1 md:mr-2 text-primary_backgroundDarkerColor-600" />
-              <a className="text-primary_backgroundLighterColor-200 text-sm sm:text-xl">
+              <a className="text-primary_backgroundLighterColor-200 text-sm sm:text-base">
                 London, UK
               </a>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <MdMail className="text-2xl mr-1 md:mr-2 text-primary_backgroundDarkerColor-600" />
-              <a className="text-primary_backgroundLighterColor-200 text-sm sm:text-xl">
+              <a className="text-primary_backgroundLighterColor-200 text-sm sm:text-base">
                 travellife@contact.com
               </a>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <MdLocalPhone className="text-2xl mr-1 md:mr-2 text-primary_backgroundDarkerColor-600" />
-              <a className="text-primary_backgroundLighterColor-200 text-sm sm:text-xl">
+              <a className="text-primary_backgroundLighterColor-200 text-sm sm:text-base">
                 + 01 234 567 88
               </a>
             </p>
             <p className="mb-4 flex items-center justify-center md:justify-start">
               <MdFax className="text-2xl mr-1 md:mr-2 text-primary_backgroundDarkerColor-600" />
-              <a className="text-[#bebab2] text-sm sm:text-xl">
+              <a className="text-[#bebab2] text-sm sm:text-base">
                 + 01 234 567 89
               </a>
             </p>
