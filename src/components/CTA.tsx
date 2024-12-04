@@ -1,4 +1,4 @@
-import backgroundimage from "../images/image25.jpg";
+import backgroundimage from "../images/image20.jpg";
 
 const CTA = () => {
   return (
