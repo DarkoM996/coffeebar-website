@@ -11,14 +11,14 @@ const FeaturedCards = () => {
     <section className="max-w-screen-3xl mx-auto w-full min-h-screen bg-white grid grid-cols-1 gap-6 px-6 py-4 lg:px-28">
       <h2 className="text-4xl md:text-5xl py-16">Featured Coffees</h2>
       {/* Grid elements */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Grid element #1 */}
         <div className="flex flex-col justify-center items-center gap-6 h-auto w-full">
-          <div className="relative">
+          <div className="relative w-full h-[485px]">
             <img
               src={coffeeimage1}
               alt="coffee image 1"
-              className="w-full h-[485px] object-cover rounded-tr-[250px] rounded-bl-[250px]"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
             />
           </div>
           <div className="text-left">
@@ -27,11 +27,11 @@ const FeaturedCards = () => {
         </div>
         {/* Grid element #2 */}
         <div className="flex flex-col justify-center items-center gap-6 h-auto w-full">
-          <div className="relative">
+          <div className="relative w-full h-[485px]">
             <img
               src={coffeeimage2}
               alt="coffee image 2"
-              className="w-full h-[485px] object-cover rounded-tr-[250px] rounded-bl-[250px]"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
             />
           </div>
           <div className="text-left">
@@ -40,11 +40,11 @@ const FeaturedCards = () => {
         </div>
         {/* Grid element #3 */}
         <div className="flex flex-col justify-center items-center gap-6 h-auto w-full">
-          <div className="relative">
+          <div className="relative w-full h-[485px]">
             <img
               src={coffeeimage3}
               alt="coffee image 3"
-              className="w-full h-[485px] object-cover rounded-tr-[250px] rounded-bl-[250px]"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
             />
           </div>
           <div className="text-left">
@@ -53,11 +53,11 @@ const FeaturedCards = () => {
         </div>
         {/* Grid element #4 */}
         <div className="flex flex-col justify-center items-center gap-6 h-auto w-full">
-          <div className="relative">
+          <div className="relative w-full h-[485px]">
             <img
               src={coffeeimage4}
               alt="coffee image 4"
-              className="w-full h-[485px] object-cover rounded-tr-[250px] rounded-bl-[250px]"
+              className="w-full h-full object-cover rounded-tr-[250px] rounded-bl-[250px]"
             />
           </div>
           <div className="text-left">
@@ -68,7 +68,7 @@ const FeaturedCards = () => {
       {/* CSS Div Divider */}
       <div className="flex flex-grow border-b border-stone-300 py-12"></div>
       {/* About Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-12 py-16 w-full h-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:gap-12 py-16 w-full h-full">
         <div className="relative h-[500px]">
           <img
             src={coffeeimage5}
