@@ -8,13 +8,13 @@ import { IoMdArrowRoundForward } from "react-icons/io";
 
 const FeaturedCards = () => {
   return (
-    <section className="max-w-screen-3xl mx-auto w-full min-h-screen bg-white grid grid-cols-1 gap-6 px-6 py-4 lg:px-28">
+    <section className="max-w-screen-3xl mx-auto w-full min-h-screen bg-white grid grid-cols-1 gap-6 px-6 py-4 lg:px-16 xl:px-28">
       <h2 className="text-4xl md:text-5xl py-16">Featured Coffees</h2>
       {/* Grid elements */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Grid element #1 */}
         <div className="flex flex-col justify-center items-center gap-6 h-auto w-full">
-          <div className="relative w-full h-[485px]">
+          <div className="relative w-full h-[420px]">
             <img
               src={coffeeimage1}
               alt="coffee image 1"
@@ -27,7 +27,7 @@ const FeaturedCards = () => {
         </div>
         {/* Grid element #2 */}
         <div className="flex flex-col justify-center items-center gap-6 h-auto w-full">
-          <div className="relative w-full h-[485px]">
+          <div className="relative w-full h-[420px]">
             <img
               src={coffeeimage2}
               alt="coffee image 2"
@@ -40,7 +40,7 @@ const FeaturedCards = () => {
         </div>
         {/* Grid element #3 */}
         <div className="flex flex-col justify-center items-center gap-6 h-auto w-full">
-          <div className="relative w-full h-[485px]">
+          <div className="relative w-full h-[420px]">
             <img
               src={coffeeimage3}
               alt="coffee image 3"
@@ -53,7 +53,7 @@ const FeaturedCards = () => {
         </div>
         {/* Grid element #4 */}
         <div className="flex flex-col justify-center items-center gap-6 h-auto w-full">
-          <div className="relative w-full h-[485px]">
+          <div className="relative w-full h-[420px]">
             <img
               src={coffeeimage4}
               alt="coffee image 4"
